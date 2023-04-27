@@ -5,32 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Feel Good</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assests/css/style.css" />
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Zen Quote Generator</h1>
-      </header>
-      <div class="card">
-        <div class="card-header">
-          <h2>Generate a Zen Quote</h2>
+    <section>
+        <div class="wrapper">
+          <header>
+            <h1>Zen Quote Generator</h1>
+          </header>
+          <div class="card">
+            <div class="card-header">
+              <h2>Generate a Zen Quote</h2>
+            </div>
+            <div class="card-body">
+              <textarea
+                readonly
+                id="quotes"
+                placeholder=""
+                aria-label="Generated Quote"
+              ></textarea>
+            </div>
+            <div class="card-footer">
+              <button id="generateQuote" class="btn">Generate Quote</button>
+            </div>
+          </div>
         </div>
-        <div class="card-body">
-          <textarea
-            readonly
-            id="password"
-            placeholder=""
-            aria-label="Generated Quote"
-          ></textarea>
-        </div>
-        <div class="card-footer">
-          <button id="generate" class="btn">Generate Quote</button>
-        </div>
-      </div>
-    </div>
-    
-    
+    </section>
     
     <section>
       <div class="wrapper2">
@@ -44,17 +44,17 @@
           <div class="card-body2">
             <textarea
               readonly
-              id="password"
+              id="jokes"
               placeholder=""
               aria-label="Generated Joke"
             ></textarea>
           </div>
           <div class="card-footer2">
-            <button id="generate" class="btn2">Generate Joke</button>
+            <button id="generateJoke" class="btn2">Generate Joke</button>
           </div>
         </div>
       </div>
     </section>
-    <script src="script.js"></script>
+    <script src="./assests/js/script.js"></script>
   </body>
 </html>
