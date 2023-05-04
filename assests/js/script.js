@@ -10,7 +10,7 @@ async function getJokesAPI() {
     method: "GET",
     headers: {
       "content-type": "application/octet-stream",
-      "X-RapidAPI-Key": "5dfde6aa4amsh622098f611b181cp1a3319jsnb5045d2ad2c8",
+      "X-RapidAPI-Key": "625e074f94mshf6af45982cd541bp1cb93cjsncf2e44e982c3",
       "X-RapidAPI-Host": "dad-jokes.p.rapidapi.com",
     },
   };
