@@ -2,7 +2,8 @@ var generateJokeButton = document.querySelector("#generateJoke");
 var generateQuoteButton = document.querySelector("#generateQuote");
 
 var jokeLocation = document.querySelector("#jokes");
-var quoteLocation = document.querySelector("#quotes");
+var quoteLocation = document
+.querySelector("#quotes");
 
 async function getJokesAPI() {
   const url = "https://dad-jokes.p.rapidapi.com/random/joke";
