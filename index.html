@@ -5,37 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Feel Good</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assests/css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Zen Quote Generator</h1>
-      </header>
-      <div class="card">
-        <div class="card-header">
-          <h2>Generate a Zen Quote</h2>
+    <section>
+        <div class="wrapper7">
+          <header>
+            <h1 class="title is-1">Zen Quote Generator</h1>
+          </header>
+          <div class="card7">
+            <div class="card-header7">
+              <h2>Generate a Zen Quote</h2>
+            </div>
+            <div class="card-body7">
+              <textarea
+                readonly
+                id="quotes"
+                placeholder=""
+                aria-label="Generated Quote"
+              ></textarea>
+            </div>
+            <div class="card-footer7">
+              <button id="generateQuote" class="button is-primary">Generate Quote</button>
+            </div>
+          </div>
         </div>
-        <div class="card-body">
-          <textarea
-            readonly
-            id="password"
-            placeholder=""
-            aria-label="Generated Quote"
-          ></textarea>
-        </div>
-        <div class="card-footer">
-          <button id="generate" class="btn">Generate Quote</button>
-        </div>
-      </div>
-    </div>
-    
-    
+    </section>
     
     <section>
       <div class="wrapper2">
         <header>
-          <h1>Dad Joke Generator</h1>
+          <h1 class="title is-1">Dad Joke Generator</h1>
         </header>
         <div class="card2">
           <div class="card-header2">
@@ -44,17 +46,17 @@
           <div class="card-body2">
             <textarea
               readonly
-              id="password"
+              id="jokes"
               placeholder=""
               aria-label="Generated Joke"
             ></textarea>
           </div>
           <div class="card-footer2">
-            <button id="generate" class="btn2">Generate Joke</button>
+            <button id="generateJoke" class="button is-primary">Generate Joke</button>
           </div>
         </div>
       </div>
     </section>
-    <script src="script.js"></script>
+    <script src="./assests/js/script.js"></script>
   </body>
 </html>
