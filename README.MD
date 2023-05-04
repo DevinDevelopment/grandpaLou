@@ -31,9 +31,8 @@ To use this feel good application just clone the repository, run the application
 
 local storage will store these quotes for later retrieval on page reset and will be updated to last generated joke and quote.
 
-![Website screenshot](./Assets/images/Capture1.PNG)
-![Website screenshot](./Assets/images/Capture2.PNG)
-![Website screenshot](./Assets/images/Capture3.PNG)
+![Website screenshot](./assests/images/Capture1.PNG)
+![Website screenshot](./assests/images/Capture2.PNG)
 
 
 ## Deployment
